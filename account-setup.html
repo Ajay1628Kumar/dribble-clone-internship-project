@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="account-setup.css" />
+    <title>Image Upload</title>
+  </head>
+  <body>
+    <div class="navbar">
+      <h1>Dribble</h1>
+    </div>
+
+    <div class="main">
+      <h1>Welcome! Let's Create Your Profile</h1>
+      <br />
+      <h6>Let others get to know you better! You can do these later</h6>
+      <br /><br />
+      <h3>Add An Avtar</h3>
+      <br />
+      <form
+        action="index.html"
+        id="uploadForm"
+        enctype="multipart/form-data"
+      >
+        <div class="image">
+          <div id="imagePreview"></div>
+          <input
+            type="file"
+            id="imageInput"
+            accept="image/*"
+            onchange="previewImage(event)"
+            required
+          />
+        </div>
+        <br /><br />
+        <label for="location" id="location-label">Add Your Location</label>
+        <input
+          type="text"
+          name="location"
+          id="location-input"
+          required
+          placeholder="Enter a Location"
+        />
+
+        <button type="submit" id="next-btn">Next</button>
+      </form>
+    </div>
+
+    <script src="file-loading-feature.js"></script>
+  </body>
+</html>

@@ -1,0 +1,71 @@
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/remixicon@4.2.0/fonts/remixicon.css"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="sign-up-page.css" />
+    <title>Sign-Up-Page</title>
+  </head>
+
+  <body>
+    <div id="main">
+      <div class="left-side">
+        <abbr title="Dribble: Community of the designers">Dribble</abbr>
+
+        <video src="sign-up-video.mp4" autoplay muted loop></video>
+      </div>
+
+      <div class="right-side">
+        <form action="account-setup.html" class="sign-up-form">
+          <h1>Sign up to Dribble</h1>
+
+          <label for="name" id="name-label">Name</label>
+          <input
+            type="text"
+            name="name"
+            id="name"
+            placeholder="Enter Your Name"
+            required
+          />
+
+          <label for="email" id="email-label">Email</label>
+          <input
+            type="email"
+            name="email"
+            id="email"
+            placeholder="Enter Your Email Address"
+            required
+          />
+
+          <label for="password" id="password-label">Password</label>
+          <div class="pass">
+            <input
+              type="password"
+              name="password"
+              id="password"
+              placeholder="Enter Your Password"
+              required
+            />
+            <i class="ri-eye-fill eye"></i>
+          </div>
+
+          <label for="checkbox" id="checkbox-label"
+            ><input type="checkbox" name="checkbox" id="checkbox" required />
+            Creating an account means you're okay with our
+            <span>Terms of services</span> , <span>Privacy Policy</span> , and
+            our default <span>Notification Setting.</span></label
+          >
+
+          <button type="submit" id="sign-up-btn">
+            Create Account
+          </button>
+        </form>
+      </div>
+    </div>
+
+    <script src="Showhide-feature.js"></script>
+  </body>
+</html>
