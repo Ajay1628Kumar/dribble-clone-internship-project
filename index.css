@@ -172,7 +172,7 @@ body::-webkit-scrollbar {
   font-size: 18px;
   font-family: mona;
   color: white;
-  padding: 12.5px;
+  padding: 15px;
   border-radius: 25px;
   border: 0;
   font-weight: 900;
@@ -450,6 +450,9 @@ body::-webkit-scrollbar {
     margin-right: 50px;
   }
 
+  .footer-container h3{
+    font-size: 20px;
+  }
   .footernav {
     padding-top: 80px;
     padding-bottom: 80px;
