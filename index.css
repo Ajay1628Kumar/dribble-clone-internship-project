@@ -315,7 +315,7 @@ body::-webkit-scrollbar {
 .footer-container h3 {
   color: black;
   font-family: mona;
-  font-size: 20px;
+  font-size: 22px;
   margin-top: 50px;
 }
 
@@ -448,10 +448,6 @@ body::-webkit-scrollbar {
     font-size: 14px;
     margin-left: 50px;
     margin-right: 50px;
-  }
-
-  .footer-container h3 {
-    font-size: 12px;
   }
 
   .footernav {
